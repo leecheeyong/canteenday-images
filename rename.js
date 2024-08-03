@@ -13,7 +13,7 @@ const uniqueStr = () => {
     return result;
 }
 
-files.forEach((file) => {
+files.filter(r=>r.endsWith(".png").forEach((file) => {
     const newFileName = uniqueStr() + '.png';
     fs.rename(`./torename/${file}`, `./torename/${newFileName}`, (err) => {
         if (err) {
