@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "axios": "^1.7.3",
+    "gm": "^1.25.0",
+    "image-size": "^1.1.1"
+  }
+}
